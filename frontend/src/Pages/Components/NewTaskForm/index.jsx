@@ -5,7 +5,7 @@ import { Title } from "../Title";
 import { IoMdCloseCircle } from "react-icons/io";
 
 import "./styles.css"
-import { postData } from "../../../Utils/HandleData/postDATA";
+import { postData } from "../../../Utils/HandleData/postData";
 
 const NewTaskForm = () => {
 	const { createTaskModal, setCreateTaskModal } = React.useContext(AppContext);
